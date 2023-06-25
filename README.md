@@ -6,6 +6,37 @@ Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https:
 <img width="902" alt="demo" src="https://user-images.githubusercontent.com/721666/236942256-985801c9-25b9-48ef-80be-3acbb4575164.png">
 
 # Environment Setup
+Run the following command, replacing .venv with the name you want to give to your virtual environment:
+
+On Windows:
+
+```shell
+python -m venv .venv
+```
+On macOS/Linux:
+
+```shell
+python3 -m venv .venv
+```
+Wait for the virtual environment to be created. This will create a folder named .venv in your current directory.
+
+That's it! You now have a virtual environment created for your project. To activate it, you need to run a specific command based on your operating system:
+
+On Windows:
+
+```shell
+.venv\Scripts\activate
+```
+On macOS/Linux:
+
+bash
+```shell
+source .venv/bin/activate
+```
+Once you activate the virtual environment, you can install packages and work on your project without affecting the global Python system.
+
+
+# Install requirements
 In order to set your environment up to run the code here, first install all requirements:
 
 ```shell
