@@ -36,6 +36,13 @@ Note: because of the way `langchain` loads the `SentenceTransformers` embeddings
 ## Test dataset
 This repo uses a [state of the union transcript](https://github.com/imartinez/privateGPT/blob/main/source_documents/state_of_the_union.txt) as an example.
 
+## Instructions for ingesting GIT repo
+```shell
+python ingestgit.py --url "https://github.com/jackeldestripat/privateGPT" "PRIVATEGPT"
+```
+all repos are stored into the `source_git` directory
+
+
 ## Instructions for ingesting your own dataset
 
 Put any and all your files into the `source_documents` directory
